@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Street Animal Rescue</title>
+
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="head">
+    <div class="logo">
+        🐾 Street Animal Rescue
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="report.html">Report</a>
+        <a href="#">Adoption</a>
+        <a href="#">NGOs</a>
+        <div class="auth-buttons">
+            <button id="login">Login</button>
+            <button id="signup" class="signup">Sign Up</button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 5%, rgba(255, 255, 255, 0) 100%), url(assests/images/rescuing\ image.png); background-repeat: no-repeat; background-size: 50%; background-position-x: right; background-position-y: center;">
+    <div class="hero-text">
+        <h1>Save Street Animals</h1>
+        <p>Report injured animals. Connect with NGOs. Help save lives.</p>
+        <div class="hero-buttons">
+            <button id="rep-btn" class="primary-btn">Report Animal</button>
+            <button class="secondary-btn">View Animals</button>
+        </div>
+    </div>
+</section>
+
+<div class="stats">
+    <div class="stat-item">
+        <h2>1,250</h2>
+        <p>Reports</p>
+    </div>
+    <div class="stat-item">
+        <h2>320</h2>
+        <p>Rescued</p>
+    </div>
+    <div class="stat-item">
+        <h2>240</h2>
+        <p>Adopted</p>
+    </div>
+</div>
+
+<section class="clinic-section">
+    <div class="clinic-left">
+        <h3>Find Nearby Pet Clinics</h3>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter your location..." />
+            <button>Auto-detect</button>
+            <button>Search</button>
+        </div>
+
+        <div class="filters">
+            <span>✔ 24/7 Open</span>
+            <span>✔ Emergency Services</span>
+            <span>✔ Free</span>
+            <span>✔ NGO Partner Clinics</span>
+        </div>
+    </div>
+
+    <div class="clinic-map">
+        <img src="assests/images/map.jpg" />
+    </div>
+</section>
+
+<footer>
+    <div>Contact Us | info@streetanimalrescue.org</div>
+    <div>© 2024 Street Animal Rescue</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
